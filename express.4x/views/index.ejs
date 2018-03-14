@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>姓名:<%= name %></div>
+	<div>
+		<ul>
+         <% for(let i=0,len=ulList.length;i<len;i++){%>
+            <li><%=ulList[i]%></li>
+         <%}%>
+		</ul>
+	</div>
+</body>
+</html>
